@@ -9,9 +9,9 @@
 
 ## Project Description
 
-I was also thinking of recreating the site called the Doe Network or creating a site that lets you input attributes and discover missing people/ Jane and Jon Does who have those. Most of the sites I see have horrible sites and could be easier to navigate. I couldn't find an api for those because most of them are private. I found one that I'm not sure is useable.
+I want to create a site where the ui is decent and it is easy to search for a missing person. I listen to a lot of true crime which brought me to The Doe Network siet, which is difficult to use and awful to look at. I want to redo that site. I was only able to find the NameUs API, which is a government run site for missing people. 
 
-If the missing person API is not great, I would like to recreate the Petfinder app. 
+I found the API below and tested it in codesandbox, I do receive data, but it is configured a little strange. If this doesnt work out I would like to redo the petfiner site. 
 
 ## API
 
@@ -77,13 +77,17 @@ https://public.opendatasoft.com/api/records/1.0/search/?dataset=namus-missings&f
 },
 ```
 
+## Misc Links
+- API test with code sandbox: https://codesandbox.io/s/names-test-9vlui
+- NameUS website example that I want to base the look of site on: https://www.namus.gov/
+
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- [add link to your wireframes]()
-- [add link to your react architecture]()
+- Landing Page: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585274018/90B2AA81-83BB-40EE-9869-0D06177C3C4D_xk7sda.jpg
+- Search Page: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585274009/0E7356B0-98F8-463B-920C-9579510D1E8B_idgjld.jpg
 
 
 ### MVP/PostMVP - 5min
@@ -97,7 +101,8 @@ The functionality will then be divided into two separate lists: MPV and PostMVP.
 
 #### PostMVP EXAMPLE
 
-- Add localStorage or firebase for storage
+- Create a map to click on regions where person went missing
+- Resources for people to help out
 
 ## Components
 ##### Writing out your components and its descriptions isn't a required part of the proposal but can be helpful.
@@ -107,7 +112,10 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | Component | Description | 
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
+| Layout | This will present the information in a way that is pleasing to the eye |
+| Map | Map of the world thats interactive and can show statistics on missing people in certain areas |
 | Header | This will render the header include the nav | 
+| Carousel | Shows different aspects of site
 | Footer | This will render the header include the nav | 
 
 
@@ -117,6 +125,13 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | --- | :---: |  :---: | :---: | :---: |
 | Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
 | Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| CSS and HTML | H | 3 hrs |
+|React animations | L | 2 hrs |
+| In depth dearch aspect | H | 5 hrs |
+| Creating map of the world in React | L | 5 hrs | 
+|Carousel| L| 2.5 hrs |
+| Find photos and resources | H | 1.5 hrs |
+| Research | H | 1.5 hrs | 
 | Total | H | 6hrs| 5hrs | 5hrs |
 
 ## Additional Libraries
