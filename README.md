@@ -9,31 +9,45 @@
 
 ## Project Description
 
-I want to create a site where the ui is decent and it is easy to search for a missing person. I listen to a lot of true crime which brought me to The Doe Network siet, which is difficult to use and awful to look at. I want to redo that site. I was only able to find the NameUs API, which is a government run site for missing people. 
-
-I found the API below and tested it in codesandbox, I do receive data, but it is configured a little strange. If this doesnt work out I would like to redo the petfiner site. 
+I will be recreating the Petfinder website. I like the idea of doing an in depth search aspect to search for certain attributes of animals to adopt. 
 
 ## API
 
 https://www.petfinder.com/developers/v2/docs/
 
-https://public.opendatasoft.com/api/records/1.0/search/?dataset=namus-missings&facet=cityoflastcontact&facet=countydisplaynameoflastcontact&facet=raceethnicity&facet=statedisplaynameoflastcontact&facet=gender
 
+```
+"animals": [
+        {
+            "id": 120,
+            "organization_id": "NJ333",
+            "url": "https://www.petfinder.com/dog/spot-120/nj/jersey-city/nj333-petfinder-test-account/?referrer_id=d7e3700b-2e07-11e9-b3f3-0800275f82b1",
+            "type": "Dog",
+            "species": "Dog",
+            "breeds": {
+                "primary": "Akita",
+                "secondary": null,
+                "mixed": false,
+                "unknown": false
+            },
+            "colors": {
+                "primary": null,
+                "secondary": null,
+                "tertiary": null
 
 ```
 
-```
+## Charts
+- Priority matrix: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585328274/5EE2C61B-490F-4519-ABE9-4BD73419CB41_fvcsul.jpg
+- React architecture: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585328357/2008E5A5-7912-409B-819C-B7E7227319A9_ivyl8l.jpg
 
-## Misc Links
-- API test with code sandbox: https://codesandbox.io/s/names-test-9vlui
-- NameUS website example that I want to base the look of site on: https://www.namus.gov/
 
 
 ## Wireframes
 
 Upload images of wireframe to cloudinary and add the link here with a description of the specific wireframe. Also, define the the React components and the architectural design of your app.
 
-- Landing Page: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585274018/90B2AA81-83BB-40EE-9869-0D06177C3C4D_xk7sda.jpg
+- Landing Page: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585328350/6B3C67C2-4B95-4C1A-BEB7-18892B98883E_m4fjvs.jpg
 - Search Page: https://res.cloudinary.com/dnxx8igwb/image/upload/v1585274009/0E7356B0-98F8-463B-920C-9579510D1E8B_idgjld.jpg
 
 
@@ -60,9 +74,9 @@ Based on the initial logic defined in the previous sections try and breakdown th
 | --- | :---: |  
 | App | This will make the initial data pull and include React Router| 
 | Layout | This will present the information in a way that is pleasing to the eye |
-| Map | Map of the world thats interactive and can show statistics on missing people in certain areas |
+| Map | Map of the world thats interactive |
 | Header | This will render the header include the nav | 
-| Carousel | Shows different aspects of site
+| Carousel | Shows different aspects of site |
 | Footer | This will render the header include the nav | 
 
 
@@ -74,12 +88,12 @@ Time frames are also key in the development cycle.  You have limited time to cod
 | Working with API | H | 3hrs|
 | CSS and HTML | H | 3 hrs |
 |React animations | L | 2 hrs |
-| In depth dearch aspect | H | 5 hrs |
-| Creating map of the world in React | L | 5 hrs | 
+| In depth search aspect | H | 5 hrs |
+| Creating map of the U.S. in React | L | 5 hrs | 
 |Carousel| L| 2.5 hrs |
 | Find photos and resources | H | 1.5 hrs |
 | Research | H | 1.5 hrs | 
-| Total | H | 6hrs| 5hrs | 5hrs |
+| Total | H |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
