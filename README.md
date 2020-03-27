@@ -93,7 +93,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 |Carousel| L| 2.5 hrs |
 | Find photos and resources | H | 1.5 hrs |
 | Research | H | 1.5 hrs | 
-| Total | H |
+| Forms | H | 2 hrs |
+| Total | H | 28.5 hrs |
 
 ## Additional Libraries
  Use this section to list all supporting libraries and thier role in the project such as Axios, ReactStrap, D3, etc. 
