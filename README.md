@@ -21,60 +21,7 @@ https://public.opendatasoft.com/api/records/1.0/search/?dataset=namus-missings&f
 
 
 ```
-},
-"records": [
-{
-"datasetid": "namus-missings",
-"recordid": "a22eddc200a806791c57a1ae45b0baeafeca7e44",
-"fields": {
-"currentagefrom": 59,
-"cityoflastcontact": "Escondido",
-"firstname": "Michael",
-"modifieddatetime": "2018-05-09T17:52:08+00:00",
-"middlename": "William",
-"gender": "Male",
-"image": {
-"mimetype": "image/png",
-"format": "PNG",
-"color_summary": [],
-"filename": "Thumbnail.png",
-"width": 120,
-"id": "a909472d1b66b57973f56648a8c520a0",
-"height": 120,
-"thumbnail": true
-},
-"currentageto": 59,
-"geo_point_2d": [
-33.1192116121,
--117.086432917
-],
-"computedmissingminage": 50,
-"countydisplaynameoflastcontact": "San Diego",
-"computedmissingmaxage": 50,
-"idformatted": "MP34938",
-"raceethnicity": "White / Caucasian",
-"link": "https://www.namus.gov//MissingPersons/Case#/34938",
-"statedisplaynameoflastcontact": "CA",
-"lastname": "Sholes",
-"geo_shape": {
-"type": "Point",
-"coordinates": [
--117.0864329172,
-33.1192116121
-]
-},
-"dateoflastcontact": "2009-11-10",
-"namus2number": "34938"
-},
-"geometry": {
-"type": "Point",
-"coordinates": [
--117.086432917,
-33.1192116121
-]
-},
-"record_timestamp": "2018-05-29T01:14:51.907000+00:00"
-},
+
 ```
 
 ## Misc Links
@@ -123,8 +70,8 @@ Time frames are also key in the development cycle.  You have limited time to cod
 
 | Component | Priority | Estimated Time | Time Invetsted | Actual Time |
 | --- | :---: |  :---: | :---: | :---: |
-| Adding Form | H | 3hrs| 3.5hrs | 3.5hrs |
-| Working with API | H | 3hrs| 2.5hrs | 2.5hrs |
+| Adding Form | H | 3hrs |
+| Working with API | H | 3hrs|
 | CSS and HTML | H | 3 hrs |
 |React animations | L | 2 hrs |
 | In depth dearch aspect | H | 5 hrs |
